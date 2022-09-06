@@ -64,6 +64,7 @@ anglicise,anglicize
 anglicised,anglicized
 anglicises,anglicizes
 anglicising,anglicizing
+annexe,annex
 annualised,annualized
 antagonise,antagonize
 antagonised,antagonized
@@ -465,6 +466,7 @@ drivelled,driveled
 drivelling,driveling
 duelled,dueled
 duelling,dueling
+eastward,eastwards
 economise,economize
 economised,economized
 economises,economizes
@@ -510,6 +512,8 @@ epitomise,epitomize
 epitomised,epitomized
 epitomises,epitomizes
 epitomising,epitomizing
+equaled,equalled
+equaling,equalling
 equalisation,equalization
 equalise,equalize
 equalised,equalized
@@ -613,6 +617,8 @@ formalise,formalize
 formalised,formalized
 formalises,formalizes
 formalising,formalizing
+formulas,formulae
+forums,fora
 fossilisation,fossilization
 fossilise,fossilize
 fossilised,fossilized
@@ -623,6 +629,8 @@ fraternise,fraternize
 fraternised,fraternized
 fraternises,fraternizes
 fraternising,fraternizing
+fueled,fuelled
+fueling,fuelling
 fulfil,fulfill
 fulfilment,fulfillment
 fulfils,fulfills
@@ -670,6 +678,7 @@ globalise,globalize
 globalised,globalized
 globalises,globalizes
 globalising,globalizing
+globaly,globally
 glueing ,gluing 
 goitre,goiter
 goitres,goiters
@@ -708,6 +717,7 @@ haemorrhaged,hemorrhaged
 haemorrhages,hemorrhages
 haemorrhaging,hemorrhaging
 haemorrhoids,hemorrhoids
+hanged,hung
 harbour,harbor
 harboured,harbored
 harbouring,harboring
@@ -794,6 +804,7 @@ industrialise,industrialize
 industrialised,industrialized
 industrialises,industrializes
 industrialising,industrializing
+infeasible,unfeasible
 inflexion,inflection
 inflexions,inflections
 initialise,initialize
@@ -849,12 +860,14 @@ jeopardising,jeopardizing
 jewelled,jeweled
 jeweller,jeweler
 jewellers,jewelers
-jewellery,jewelry
+jewelry,jewellery
+jewelery,jewellery
 judgement ,judgment
 kilogramme,kilogram
 kilogrammes,kilograms
 kilometre,kilometer
 kilometres,kilometers
+kneeled,knelt
 labelled,labeled
 labelling,labeling
 labour,labor
@@ -890,7 +903,8 @@ licence,license
 licenced,licensed
 licences,licenses
 licencing,licensing
-likeable,likable 
+lighted,lit
+likeable,likable
 lionisation,lionization
 lionise,lionize
 lionised,lionized
@@ -902,6 +916,7 @@ liquidiser,liquidizer
 liquidisers,liquidizers
 liquidises,liquidizes
 liquidising,liquidizing
+liquorice,licorice
 litre,liter
 litres,liters
 localise,localize
@@ -1470,10 +1485,12 @@ specialises,specializes
 specialising,specializing
 spectre,specter
 spectres,specters
+spelled,spelt
 spiralled,spiraled
 spiralling,spiraling
 splendour,splendor
 splendours,splendors
+spoiled,spoilt
 squirrelled,squirreled
 squirrelling,squirreling
 stabilisation,stabilization
