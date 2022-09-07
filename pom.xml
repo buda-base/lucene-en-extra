@@ -4,7 +4,7 @@
   <groupId>io.bdrc.lucene</groupId>
   <artifactId>lucene-en-extra</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <name>lucene-en-extra</name>
   <url>https://github.com/buda-base/lucene-en-extra</url>
   <description>Components for Lucene English analyzers</description>
