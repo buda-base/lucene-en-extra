@@ -43,10 +43,10 @@ public class TestAnalyzer {
     }
     
     @Test
-    public void testAnalyzer() throws Exception {
-        String input = "realizes realisation";
+    public void testEnglishAnalyzer() throws Exception {
+        String input = "realizes realisation Tashi's śā s\u0301a\u0304 qing";
         Reader reader = new StringReader(input);
-        List<String> expected = Arrays.asList("realiz", "realiz");
+        List<String> expected = Arrays.asList("realiz", "realiz", "tashi", "sha", "sha", "qing");
         Analyzer englishAnalyzer = new BDRCEnglishAnalyzer();
         TokenStream indexTk = englishAnalyzer.tokenStream("", input);
         indexTk.reset();

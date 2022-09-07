@@ -29,7 +29,7 @@ public class BDRCEnglishAnalyzer extends Analyzer {
       result = new EnglishPossessiveFilter(result);
       result = new LowerCaseFilter(result);
       result = new StopFilter(result, EnglishAnalyzer.ENGLISH_STOP_WORDS_SET);
-      result = new SynonymGraphFilter(result, SpellingVariantFilter.smap, false);
+      result = new SynonymGraphFilter(result, UKUSSpellingVariants.smap, false);
       result = new PorterStemFilter(result);
       return new TokenStreamComponents(source, result);
     }

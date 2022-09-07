@@ -36,7 +36,6 @@ public class TibetanDTSFilter extends MappingCharFilter {
         builder.add("Ž", "zh");
         builder.add("Z\u030C", "zh");
         builder.add("ḥ", "");
-        builder.add("'", "");
         builder.add("ṅ", "ng");
         builder.add("n\u0307", "ng");
         builder.add("Ṅ", "ng");
@@ -45,6 +44,14 @@ public class TibetanDTSFilter extends MappingCharFilter {
         builder.add("n\u0303", "ny");
         builder.add("Ñ", "ny");
         builder.add("N\u0303", "ny");
+        builder.add("\u0301", "");
+        builder.add("\u0303", "");
+        builder.add("\u0307", "");
+        builder.add("\u030C", "");
+        builder.add("\u0323", "");
+        builder.add("\u0304", "");
+        builder.add("\u0325", "");
+        builder.add("\u0901", "");
         return builder.build();
     }
 

@@ -4,7 +4,7 @@
   <groupId>io.bdrc.lucene</groupId>
   <artifactId>lucene-en-extra</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <name>lucene-en-extra</name>
   <url>https://github.com/buda-base/lucene-en-extra</url>
   <description>Components for Lucene English analyzers</description>
@@ -54,11 +54,6 @@
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-common</artifactId>
             <version>${lucene.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.opencsv</groupId>
-            <artifactId>opencsv</artifactId>
-            <version>5.7.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
@@ -148,16 +143,9 @@
     <build>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>bo-compiled-trie.dump</include>
-                    <include>bo-stopwords.txt</include>
-                </includes>
-            </resource>
-            <resource>
                 <directory>src/main/resources/</directory>
                 <includes>
-                    <include>*</include>
+                    <include>uk-us-spellings.csv</include>
                 </includes>
             </resource>
         </resources>
