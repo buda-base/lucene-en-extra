@@ -1,4 +1,4 @@
-package io.bdrc.lucene;
+package io.bdrc.lucene.en;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -16,6 +16,8 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.junit.Test;
+
+import io.bdrc.lucene.en.BDRCEnglishAnalyzer;
 
 public class TestAnalyzer {
 

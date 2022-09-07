@@ -1,4 +1,4 @@
-package io.bdrc.lucene;
+package io.bdrc.lucene.en;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
