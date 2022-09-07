@@ -44,9 +44,9 @@ public class TestAnalyzer {
     
     @Test
     public void testEnglishAnalyzer() throws Exception {
-        String input = "realizes realisation Tashi's śā s\u0301a\u0304 qing";
+        String input = "realizes realisation Tashi's ཀིས་ཁ་རྒ་ང་ 一理 śā s\u0301a\u0304 qing";
         Reader reader = new StringReader(input);
-        List<String> expected = Arrays.asList("realiz", "realiz", "tashi", "sha", "sha", "qing");
+        List<String> expected = Arrays.asList("realiz", "realiz", "tashi", "ཀིས", "ཁ", "རྒ", "ང", "一", "理", "sha", "sha", "qing");
         Analyzer englishAnalyzer = new BDRCEnglishAnalyzer();
         TokenStream indexTk = englishAnalyzer.tokenStream("", input);
         indexTk.reset();
